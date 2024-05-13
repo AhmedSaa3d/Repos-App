@@ -41,7 +41,7 @@ function createBox(repoObj) {
   box.className = "box";
   //create the img
   let img = document.createElement("img");
-  img.src = `images/${Math.trunc(Math.random() * 2)}.jpg`; //will change later;
+  img.src = `Images/${Math.trunc(Math.random() * 2)}.jpg`; //will change later;
   box.appendChild(img);
   //create text
   let txtDiv = document.createElement("div");
